@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .thumbnail {
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            width: 150px;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+        .thumbnail:hover {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Thumbnail Image Gallery</h1>
+    <div class="gallery">
+        <div class="thumbnail">
+            <a href="/home/vitcse/Pictures/shinchan.png">
+                <img src="/home/vitcse/Pictures/shinchan.png" alt="Image 1 Thumbnail">
+            </a>
+        </div>
+        <div class="thumbnail">
+            <a href="/home/vitcse/Pictures/boo.jpg">
+                <img src="/home/vitcse/Pictures/boo.jpg" alt="Image 2 Thumbnail">
+            </a>
+        </div>
+        <div class="thumbnail">
+            <a href="/home/vitcse/Pictures/nene.webp">
+                <img src="/home/vitcse/Pictures/nene.webp" alt="Image 3 Thumbnail">
+            </a>
+        </div>
+        <div class="thumbnail">
+            <a href="/home/vitcse/Pictures/maso.webp">
+                <img src="/home/vitcse/Pictures/maso.webp" alt="Image 4 Thumbnail">
+            </a>
+        </div>
+        <div class="thumbnail">
+            <a href="/home/vitcse/Pictures/musae.webp">
+                <img src="/home/vitcse/Pictures/musae.webp" alt="Image 5 Thumbnail">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
