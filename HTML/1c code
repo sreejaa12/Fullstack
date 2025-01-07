@@ -34,14 +34,14 @@
 
     <div class="profile">
         <a href="https://github.com/sreejaa12" target="_blank">
-            <img src="/home/vitcse/Pictures/164479163.png" alt="Your Image">
+            <img src="c:\Users\HP\OneDrive\Desktop\164479163.png" alt="Your Image">
         </a>
         <p><a href="https://github.com/sreejaa12" target="_blank">Your Profile</a></p>
     </div>
 
     <div class="profile">
         <a href="https://github.com/priyankanaidu3770" target="_blank">
-            <img src="/home/vitcse/Pictures/174864105.png" alt="Friend's Image">
+            <img src="c:\Users\HP\OneDrive\Desktop\174864105.png" alt="Friend's Image">
         </a>
         <p><a href="https://github.com/priyankanaidu3770" target="_blank">Friend's Profile</a></p>
     </div>
@@ -49,5 +49,3 @@
 </body>
 </html>
 
-OUTPUT:-
-see lms
