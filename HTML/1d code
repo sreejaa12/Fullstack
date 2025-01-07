@@ -32,28 +32,28 @@
     <h1>Thumbnail Image Gallery</h1>
     <div class="gallery">
         <div class="thumbnail">
-            <a href="/home/vitcse/Pictures/shinchan.png">
-                <img src="/home/vitcse/Pictures/shinchan.png" alt="Image 1 Thumbnail">
+            <a href="c:\Users\HP\OneDrive\Desktop\wp11252213.webp">
+                <img src="c:\Users\HP\OneDrive\Desktop\wp11252213.webp" alt="Image 1 Thumbnail">
             </a>
         </div>
         <div class="thumbnail">
-            <a href="/home/vitcse/Pictures/boo.jpg">
-                <img src="/home/vitcse/Pictures/boo.jpg" alt="Image 2 Thumbnail">
+            <a href="c:\Users\HP\OneDrive\Desktop\desktop-wallpaper-crayon-shin-chan-and-friends-family-cute-ultra-shin-chan-thumbnail.jpg">
+                <img src="c:\Users\HP\OneDrive\Desktop\desktop-wallpaper-crayon-shin-chan-and-friends-family-cute-ultra-shin-chan-thumbnail.jpg" alt="Image 2 Thumbnail">
             </a>
         </div>
         <div class="thumbnail">
-            <a href="/home/vitcse/Pictures/nene.webp">
-                <img src="/home/vitcse/Pictures/nene.webp" alt="Image 3 Thumbnail">
+            <a href="c:\Users\HP\OneDrive\Desktop\wp8506650.webp">
+                <img src="c:\Users\HP\OneDrive\Desktop\wp8506650.webp" alt="Image 3 Thumbnail">
             </a>
         </div>
         <div class="thumbnail">
-            <a href="/home/vitcse/Pictures/maso.webp">
-                <img src="/home/vitcse/Pictures/maso.webp" alt="Image 4 Thumbnail">
+            <a href="c:\Users\HP\OneDrive\Desktop\images.jpeg">
+                <img src="c:\Users\HP\OneDrive\Desktop\images.jpeg" alt="Image 4 Thumbnail">
             </a>
         </div>
         <div class="thumbnail">
-            <a href="/home/vitcse/Pictures/musae.webp">
-                <img src="/home/vitcse/Pictures/musae.webp" alt="Image 5 Thumbnail">
+            <a href="c:\Users\HP\OneDrive\Desktop\9c0c0433aeeab0b6227da3b4a1f28258.jpg">
+                <img src="c:\Users\HP\OneDrive\Desktop\9c0c0433aeeab0b6227da3b4a1f28258.jpg" alt="Image 5 Thumbnail">
             </a>
         </div>
     </div>
