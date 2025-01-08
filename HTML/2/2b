@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timetable Example</title>
+    </head>
+    <body>
+        <h1>HTML Timetable Example</h1>
+        <table border="1" cellpadding ="10" cellspacing="5">
+            <caption>class Timetable</caption>
+            <tr>
+                <th>Day/Time</th>
+                <th>9:00 AM-10:00 AM</th>
+                <th>10:00 AM-11:00 AM</th>
+                <th>11:00 AM-12:00 PM</th>
+                <th>12:00 PM-1:00 PM</th>
+                <th>1:00 PM-2:00 PM</th>
+                <th>2:00 PM-3:00 PM</th>
+            </tr>    
+            <tr>
+                <th>Monday</th>
+                <td>P&S</td>
+                <td rowspan="3">Physics</td>
+                <td>SE</td>
+                <td rowspan="3" colspan="2">Lunch Break</td>
+                <td>ADSAA</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>DT</td>
+                <td>MEFA</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="2">FSD Lab</td>
+                <td>SE</td>
+                <td>DT</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>OS</td>
+                <td>CRT</td>
+                <td rowspan="2">SE</td>
+                <td>FSD</td>
+                <td>MEFA</td>
+                <td>DT</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>Computer Science</td>
+                <td>OS LAB</td>
+                <td>ADSAA</td>
+                <td>CRT</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
