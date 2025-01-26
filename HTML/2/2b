@@ -2,6 +2,11 @@
 <html>
     <head>
         <title>Timetable Example</title>
+        <style>
+        table{
+            border-collapse:collapse;
+        }
+    </style>
     </head>
     <body>
         <h1>HTML Timetable Example</h1>
@@ -56,3 +61,6 @@
 
     </body>
 </html>
+
+output:
+see lms
