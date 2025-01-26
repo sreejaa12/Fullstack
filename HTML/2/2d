@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .frame-container {
+            border: 1px solid #000;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .image-frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .text-frame {
+            padding: 15px;
+            font-size: 16px;
+            color: #333;
+            text-align: left;
+            background-color: #f9f9f9;
+        }
+        .text-frame hr {
+            margin: 10px 0;
+        }
+        .text-frame a {
+            text-decoration: none;
+            color: blue;
+        }
+        .text-frame a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame-container">
+        <div class="image-frame">
+            <img src="c:\Users\HP\OneDrive\Desktop\full-stack-web-development.jpg" alt="Full Stack Development">
+        </div>
+        <div class="text-frame">
+            <p>This is a sample paragraph displayed in the second frame. Frames allow dividing a page into sections, each capable of loading different content.</p>
+            <hr>
+            <a href="https://example.com" target="_blank">Visit Example Website</a>
+        </div>
+    </div>
+</body>
+</html>
+
+output:
+see lms
