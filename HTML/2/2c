@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-group button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .submit {
+            background-color: #007BFF;
+            color: white;
+        }
+        .submit:hover {
+            background-color: #0056b3;
+        }
+        .reset {
+            background-color: #dc3545;
+            color: white;
+        }
+        .reset:hover {
+            background-color: #a71d2a;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+
+    <form action="#" method="post">
+        <table border="1">
+            <caption><strong>Fill Your Details</strong></caption>
+            <tr>
+                <th>Full Name:</th>
+                <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td><input type="number" name="age" min="1" max="100" required></td>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio" name="gender" value="male" required> Male
+                    <input type="radio" name="gender" value="female" required> Female
+                    <input type="radio" name="gender" value="other" required> Other
+                </td>
+            </tr>
+            <tr>
+                <th>Hobbies:</th>
+                <td>
+                    <input type="checkbox" name="hobbies" value="reading"> Reading<br>
+                    <input type="checkbox" name="hobbies" value="sports"> Sports<br>
+                    <input type="checkbox" name="hobbies" value="traveling"> Traveling
+                </td>
+            </tr>
+            <tr>
+                <th>Country:</th>
+                <td>
+                    <select name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="usa">USA</option>
+                        <option value="india">India</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>About Yourself:</th>
+                <td><textarea name="about" rows="5" cols="30" placeholder="Write about yourself..."></textarea></td>
+            </tr>
+        </table>
+
+        <div class="button-group">
+            <button type="submit" class="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
